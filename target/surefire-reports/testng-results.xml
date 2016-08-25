@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="31230" started-at="2016-08-25T19:18:26Z" finished-at="2016-08-25T19:18:57Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="31230" started-at="2016-08-25T19:18:26Z" finished-at="2016-08-25T19:18:57Z">
+      <class name="tests.WileyTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.WileyTest@2812cbfa]" name="init" is-config="true" duration-ms="4387" started-at="2016-08-25T22:18:26Z" finished-at="2016-08-25T22:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setParameters(java.lang.String)[pri:0, instance:tests.WileyTest@2812cbfa]" name="setParameters" is-config="true" duration-ms="1" started-at="2016-08-25T22:18:30Z" finished-at="2016-08-25T22:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://eu.wiley.com/WileyCDA/Section/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method status="PASS" signature="run()[pri:0, instance:tests.WileyTest@2812cbfa]" name="run" duration-ms="26375" started-at="2016-08-25T22:18:30Z" finished-at="2016-08-25T22:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WileyTest@2812cbfa]" name="tearDown" is-config="true" duration-ms="462" started-at="2016-08-25T22:18:57Z" finished-at="2016-08-25T22:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WileyTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

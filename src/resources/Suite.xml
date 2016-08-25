@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="LoginTest">
+        <parameter name="site" value="http://eu.wiley.com/WileyCDA/Section/index.html"/>
+
+        <classes>
+            <class name="tests.WileyTest" />
+        </classes>
+
+    </test>
+</suite>
