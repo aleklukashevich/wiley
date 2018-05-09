@@ -5,14 +5,12 @@ import section.SearchResultRow;
 import selenium.ParamHolder;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 import static util.Constants.SELECTED_LIST;
 
 /**
