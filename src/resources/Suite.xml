@@ -3,10 +3,10 @@
 
 <suite name="TestSuite">
     <test name="LoginTest">
-        <parameter name="site" value="http://eu.wiley.com/WileyCDA/Section/index.html"/>
+        <parameter name="site" value="http://www.ss.com"/>
 
         <classes>
-            <class name="tests.WileyTest" />
+            <class name="tests.T01_TestMemo" />
         </classes>
 
     </test>
