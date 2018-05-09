@@ -1,7 +1,6 @@
 package selenium;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Browser {
@@ -20,15 +19,5 @@ public class Browser {
 
     public static void setDriver(WebDriver newDriver) {
         driver = newDriver;
-    }
-
-    public static void close() {
-        try {
-            driver.quit();
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            driver = null;
-        }
     }
 }

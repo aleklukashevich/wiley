@@ -31,6 +31,7 @@ public class T01_TestMemo extends BaseTest {
         //Step 9 - 10
         selectRandomFilesAndAddToMemo();
         //Step 11-12
+        //Fails in check because titles are different, seems like ui issue or so also ids seems different either 
         navigateToFavouritePageAndCheckItems();
     }
 

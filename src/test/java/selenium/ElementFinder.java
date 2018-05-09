@@ -5,7 +5,6 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -16,7 +15,7 @@ import java.util.NoSuchElementException;
 public class ElementFinder {
     protected WebDriver driver;
 
-    public WebElement element(By locator){
+    protected WebElement element(By locator) {
         try {
             return driver.findElement(locator);
         }catch (StaleElementReferenceException ex){
@@ -28,7 +27,7 @@ public class ElementFinder {
         }
     }
 
-    public List<WebElement> elements(By locator){
+    protected List<WebElement> elements(By locator) {
         try {
             return driver.findElements(locator);
         }catch (StaleElementReferenceException ex){

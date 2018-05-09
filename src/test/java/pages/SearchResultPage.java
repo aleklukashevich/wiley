@@ -88,7 +88,4 @@ public class SearchResultPage extends BasePage {
         return elements(SEARCH_RESULTS_LOCATOR);
     }
 
-    private WebElement getInput(WebElement element) {
-        return element.findElement(By.cssSelector("input"));
-    }
 }

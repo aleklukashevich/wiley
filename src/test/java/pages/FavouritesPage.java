@@ -36,8 +36,6 @@ public class FavouritesPage extends BasePage {
             assertEquals(addedItems.get(i).getTitle(), expected.get(i).getTitle());
             assertEquals(addedItems.get(i).getPrice(), expected.get(i).getPrice());
         });
-
         return this;
-
     }
 }
